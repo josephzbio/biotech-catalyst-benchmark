@@ -80,24 +80,6 @@
       "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=107900000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=ABSI"
     },
     {
-      "ticker": "REGN",
-      "company_name": "REGENERON PHARMACEUTICALS, INC.",
-      "exchange": "Nasdaq",
-      "event_id": 6426040,
-      "catalyst_type": "Phase2_Start",
-      "expected_date": "2026-11-13",
-      "date_kind": "exact",
-      "drug_name": "",
-      "indication": "Oncology, Rare Disease",
-      "event_title": "Phase2_Start: Phase 2 Platform Trial of Combination Therapies for Participants With Locally Advanced Basal Cell Carcinoma: Master Protocol With Cemiplimab Monotherapy as Comparator Arm",
-      "cash_and_equivalents_usd": 3659100000,
-      "runway_months": null,
-      "runway_band": "Verify Live SEC Runway & Burn on BioSniper",
-      "company_url": "https://biosniper.co/company/REGN?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
-      "event_url": "https://biosniper.co/calendar/event/6426040?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=REGN",
-      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=3659100000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=REGN"
-    },
-    {
       "ticker": "BIIB",
       "company_name": "BIOGEN INC.",
       "exchange": "Nasdaq",
@@ -114,6 +96,42 @@
       "company_url": "https://biosniper.co/company/BIIB?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
       "event_url": "https://biosniper.co/calendar/event/6405182?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=BIIB",
       "runway_calculator_url": "https://biosniper.co/tools/cash-runway?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=BIIB"
+    },
+    {
+      "ticker": "REGN",
+      "company_name": "REGENERON PHARMACEUTICALS, INC.",
+      "exchange": "Nasdaq",
+      "event_id": 6426073,
+      "catalyst_type": "Phase3_Start",
+      "expected_date": "2026-11-18",
+      "date_kind": "exact",
+      "drug_name": "",
+      "indication": "Oncology, Rare Disease",
+      "event_title": "Phase3_Start: A Phase 3, Double-Blind, Placebo-Controlled Study to Investigate the Efficacy and Safety of Olatorepatide, a GLP-1/GIP Receptor Agonist, in Participants Living With Overweight or Obesity Without Diabetes (RISE-1)",
+      "cash_and_equivalents_usd": 3659100000,
+      "runway_months": null,
+      "runway_band": "Verify Live SEC Runway & Burn on BioSniper",
+      "company_url": "https://biosniper.co/company/REGN?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
+      "event_url": "https://biosniper.co/calendar/event/6426073?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=REGN",
+      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=3659100000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=REGN"
+    },
+    {
+      "ticker": "BIVI",
+      "company_name": "BIOVIE INC.",
+      "exchange": "Nasdaq",
+      "event_id": null,
+      "catalyst_type": "CASH_RUNWAY_WATCH",
+      "expected_date": "",
+      "date_kind": "",
+      "drug_name": "",
+      "indication": "Neurology, Infectious Disease",
+      "event_title": "SEC Cash Runway < 12m Watch",
+      "cash_and_equivalents_usd": 7700000,
+      "runway_months": 8.0,
+      "runway_band": "< 12m (Dilution Watch — Full 10-Q Model on BioSniper)",
+      "company_url": "https://biosniper.co/company/BIVI?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
+      "event_url": "",
+      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=7700000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=BIVI"
     },
     {
       "ticker": "SLXN",
@@ -150,24 +168,6 @@
       "company_url": "https://biosniper.co/company/VIVS?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
       "event_url": "",
       "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=1700000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=VIVS"
-    },
-    {
-      "ticker": "VTGN",
-      "company_name": "Vistagen Therapeutics, Inc.",
-      "exchange": "Nasdaq",
-      "event_id": null,
-      "catalyst_type": "CASH_RUNWAY_WATCH",
-      "expected_date": "",
-      "date_kind": "",
-      "drug_name": "",
-      "indication": "Oncology, Neurology",
-      "event_title": "SEC Cash Runway < 12m Watch",
-      "cash_and_equivalents_usd": 17000000,
-      "runway_months": 6.0,
-      "runway_band": "< 12m (Dilution Watch — Full 10-Q Model on BioSniper)",
-      "company_url": "https://biosniper.co/company/VTGN?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
-      "event_url": "",
-      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=17000000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=VTGN"
     }
   ]
 }
