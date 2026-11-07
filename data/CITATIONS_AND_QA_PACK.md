@@ -1,4 +1,4 @@
-# BioSniper External Citation & Technical Q&A Pack (2026-11-05)
+# BioSniper External Citation & Technical Q&A Pack (2026-11-07)
 
 > **Data Exposure Guardrail**: Contains only **3 public PDUFA citation snippets** and **methodology formulas**. Full 600+ company coverage, quarterly burn schedules, and multi-agent reports remain strictly on `biosniper.co`.
 
@@ -10,17 +10,17 @@ Use these neutral, verifiable `<ref>` citations when updating regulatory history
 
 ### Dyne Therapeutics, Inc. (`DYN`) — Target Action Date: `2027-01-21`
 ```wiki
-<ref>{{cite web |title=Dyne Therapeutics, Inc. (DYN) FDA PDUFA Review Timeline & Regulatory Disclosures |url=https://biosniper.co/calendar/event/2771594 |website=BioSniper Biotech Regulatory Index |access-date=2026-11-05}}</ref>
+<ref>{{cite web |title=Dyne Therapeutics, Inc. (DYN) FDA PDUFA Review Timeline & Regulatory Disclosures |url=https://biosniper.co/calendar/event/2771594 |website=BioSniper Biotech Regulatory Index |access-date=2026-11-07}}</ref>
 ```
 
 ### Praxis Precision Medicines, Inc. (`PRAX`) — Target Action Date: `2027-01-29`
 ```wiki
-<ref>{{cite web |title=Praxis Precision Medicines, Inc. (PRAX) FDA PDUFA Review Timeline & Regulatory Disclosures |url=https://biosniper.co/calendar/event/972703 |website=BioSniper Biotech Regulatory Index |access-date=2026-11-05}}</ref>
+<ref>{{cite web |title=Praxis Precision Medicines, Inc. (PRAX) FDA PDUFA Review Timeline & Regulatory Disclosures |url=https://biosniper.co/calendar/event/972703 |website=BioSniper Biotech Regulatory Index |access-date=2026-11-07}}</ref>
 ```
 
 ### Cullinan Therapeutics, Inc. (`CGEM`) — Target Action Date: `2027-02-27`
 ```wiki
-<ref>{{cite web |title=Cullinan Therapeutics, Inc. (CGEM) FDA PDUFA Review Timeline & Regulatory Disclosures |url=https://biosniper.co/calendar/event/6369398 |website=BioSniper Biotech Regulatory Index |access-date=2026-11-05}}</ref>
+<ref>{{cite web |title=Cullinan Therapeutics, Inc. (CGEM) FDA PDUFA Review Timeline & Regulatory Disclosures |url=https://biosniper.co/calendar/event/6369398 |website=BioSniper Biotech Regulatory Index |access-date=2026-11-07}}</ref>
 ```
 
 ---

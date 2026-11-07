@@ -44,22 +44,22 @@
       "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=474800000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=PRAX"
     },
     {
-      "ticker": "PVLA",
-      "company_name": "PALVELLA THERAPEUTICS, INC.",
+      "ticker": "CGEM",
+      "company_name": "Cullinan Therapeutics, Inc.",
       "exchange": "Nasdaq",
-      "event_id": 6403732,
+      "event_id": 6369398,
       "catalyst_type": "PDUFA",
-      "expected_date": "2027-02-28",
+      "expected_date": "2027-02-27",
       "date_kind": "review_target",
-      "drug_name": "QTORIN",
-      "indication": "Dermatology",
-      "event_title": "PDUFA: QTORIN",
-      "cash_and_equivalents_usd": 193300000,
+      "drug_name": "zipalertinib",
+      "indication": "Oncology, Immunology",
+      "event_title": "PDUFA: zipalertinib",
+      "cash_and_equivalents_usd": 78600000,
       "runway_months": null,
       "runway_band": "Verify Live SEC Runway & Burn on BioSniper",
-      "company_url": "https://biosniper.co/company/PVLA?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
-      "event_url": "https://biosniper.co/calendar/event/6403732?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=PVLA",
-      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=193300000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=PVLA"
+      "company_url": "https://biosniper.co/company/CGEM?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
+      "event_url": "https://biosniper.co/calendar/event/6369398?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=CGEM",
+      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=78600000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=CGEM"
     },
     {
       "ticker": "ABSI",
