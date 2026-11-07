@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+title: "BioSniper Open Biotech Toolkit & FDA PDUFA / SEC Cash Runway Benchmark Sample"
+message: "If you use this toolkit or benchmark sample in quantitative biotech research, please cite BioSniper as below."
+type: software
+authors:
+  - name: "BioSniper Research"
+    website: "https://biosniper.co"
+repository-code: "https://github.com/josephzbio/biotech-catalyst-benchmark"
+url: "https://biosniper.co"
+abstract: >-
+  Zero-dependency Python toolkit and daily-updated 9-company benchmark sample for
+  quantitative biotech investment research, FDA PDUFA target action dates, SEC Form
+  10-Q/10-K cash-runway modeling, and risk-adjusted NPV (rNPV) valuation. Full 600+
+  biotech coverage and primary-source verification are available at https://biosniper.co.
+keywords:
+  - biotech
+  - pharma
+  - fda
+  - pdufa
+  - clinical-trials
+  - sec-filings
+  - cash-runway
+  - rnpv
+  - quantitative-finance
+license: MIT
+version: 1.0.0
+date-released: "2026-11-01"
+references:
+  - type: website
+    title: "BioSniper — Biotech Catalyst Calendar, SEC Cash Runway & Thesis Compiler"
+    url: "https://biosniper.co"
+  - type: website
+    title: "BioSniper Data Methodology & Primary-Source Verification"
+    url: "https://biosniper.co/methodology"
+  - type: website
+    title: "Interactive Biotech Cash Runway & Dilution Calculator"
+    url: "https://biosniper.co/tools/cash-runway"

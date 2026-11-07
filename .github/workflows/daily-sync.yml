@@ -1,0 +1,70 @@
+# Copy this file to `.github/workflows/daily-sync.yml` when publishing `open-source-kit`
+# as a standalone public GitHub repository (`biotech-catalyst-benchmark`).
+name: Daily Biotech Catalyst & Cash Runway Dataset Sync
+
+on:
+  schedule:
+    - cron: "15 8 * * *" # Daily at 08:15 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-dataset:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run unit tests
+        run: python3 -m unittest test_biosniper_toolkit.py
+
+      - name: Sync live indexable catalysts & SEC cash runway snapshot
+        run: |
+          python3 sync_dataset.py --upcoming-days 180 --max-tickers 9 --utm-source github
+          python3 generate_digest.py
+          python3 generate_citations_pack.py
+
+      - name: Commit and push updated dataset if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/biotech_catalysts_runway.json data/biotech_catalysts_runway.csv data/WEEKLY_DIGEST.md data/CITATIONS_AND_QA_PACK.md CATALOG.md
+          if git diff --cached --quiet; then
+            echo "No dataset changes to commit."
+            exit 0
+          fi
+          git commit -m "chore(dataset): sync daily biotech catalysts & cash runway snapshot ($(date -u +%Y-%m-%d))"
+          git push
+
+      - name: Optional sync to HuggingFace Datasets Hub
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_DATASET_REPO: ${{ vars.HF_DATASET_REPO }}
+        run: |
+          if [ -z "${HF_TOKEN:-}" ] || [ -z "${HF_DATASET_REPO:-}" ]; then
+            echo "HF_TOKEN or HF_DATASET_REPO not configured; skipping HuggingFace sync."
+            exit 0
+          fi
+          pip install --quiet huggingface_hub
+          python3 -c '
+          import os
+          from huggingface_hub import HfApi
+          api = HfApi(token=os.environ["HF_TOKEN"])
+          repo_id = os.environ["HF_DATASET_REPO"]
+          for rel_path in ("README.md", "CATALOG.md", "biosniper_toolkit.py", "data/biotech_catalysts_runway.csv", "data/biotech_catalysts_runway.json"):
+              api.upload_file(
+                  path_or_fileobj=rel_path,
+                  path_in_repo=rel_path,
+                  repo_id=repo_id,
+                  repo_type="dataset",
+              )
+          print(f"Synced dataset to HuggingFace: {repo_id}")
+          '
