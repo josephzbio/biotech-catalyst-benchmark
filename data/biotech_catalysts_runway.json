@@ -4,7 +4,7 @@
   "read_contract": "source-evidence-v2",
   "license": "MIT",
   "coverage_note": "Public 9-row benchmark sample (3 PDUFA, 3 clinical catalysts, 3 cash-runway watch). Full 600+ biotech coverage, exact quarterly burn rates, debt schedules, and multi-agent research are available at https://biosniper.co.",
-  "generated_date_utc": "2026-11-07",
+  "generated_date_utc": "2026-11-08",
   "record_count": 9,
   "records": [
     {
@@ -52,7 +52,7 @@
       "expected_date": "2027-02-27",
       "date_kind": "review_target",
       "drug_name": "zipalertinib",
-      "indication": "Oncology, Immunology",
+      "indication": "Oncology, Hematology",
       "event_title": "PDUFA: zipalertinib",
       "cash_and_equivalents_usd": 78600000,
       "runway_months": null,
@@ -60,6 +60,24 @@
       "company_url": "https://biosniper.co/company/CGEM?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
       "event_url": "https://biosniper.co/calendar/event/6369398?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=CGEM",
       "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=78600000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=CGEM"
+    },
+    {
+      "ticker": "AMGN",
+      "company_name": "AMGEN INC",
+      "exchange": "Nasdaq",
+      "event_id": 6440329,
+      "catalyst_type": "Phase1_Start",
+      "expected_date": "2026-11-09",
+      "date_kind": "exact",
+      "drug_name": "",
+      "indication": "Oncology, Neurology",
+      "event_title": "Phase1_Start: A Phase 1, Open-label, Randomized, Parallel Group, Multiple Dose Study to Assess the Relative Bioavailability of Maridebart Cafraglutide (AMG 133) as Two Subcutaneous Presentations in Participants Living With Overweight or Obesity",
+      "cash_and_equivalents_usd": 13989000000,
+      "runway_months": null,
+      "runway_band": "Verify Live SEC Runway & Burn on BioSniper",
+      "company_url": "https://biosniper.co/company/AMGN?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
+      "event_url": "https://biosniper.co/calendar/event/6440329?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=AMGN",
+      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=13989000000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=AMGN"
     },
     {
       "ticker": "ABSI",
@@ -80,24 +98,6 @@
       "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=107900000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=ABSI"
     },
     {
-      "ticker": "BIIB",
-      "company_name": "BIOGEN INC.",
-      "exchange": "Nasdaq",
-      "event_id": 6405182,
-      "catalyst_type": "Phase2_Start",
-      "expected_date": "2026-11-16",
-      "date_kind": "exact",
-      "drug_name": "",
-      "indication": "Oncology, Rare Disease",
-      "event_title": "Phase2_Start: A Phase 2 Open Label Study to Evaluate the Effects of Felzartamab on the Kidney in Individuals With IgA Nephropathy",
-      "cash_and_equivalents_usd": null,
-      "runway_months": null,
-      "runway_band": "Verify Live SEC Runway & Burn on BioSniper",
-      "company_url": "https://biosniper.co/company/BIIB?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
-      "event_url": "https://biosniper.co/calendar/event/6405182?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=BIIB",
-      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=BIIB"
-    },
-    {
       "ticker": "REGN",
       "company_name": "REGENERON PHARMACEUTICALS, INC.",
       "exchange": "Nasdaq",
@@ -106,7 +106,7 @@
       "expected_date": "2026-11-18",
       "date_kind": "exact",
       "drug_name": "",
-      "indication": "Oncology, Rare Disease",
+      "indication": "Oncology, Metabolic",
       "event_title": "Phase3_Start: A Phase 3, Double-Blind, Placebo-Controlled Study to Investigate the Efficacy and Safety of Olatorepatide, a GLP-1/GIP Receptor Agonist, in Participants Living With Overweight or Obesity Without Diabetes (RISE-1)",
       "cash_and_equivalents_usd": 3659100000,
       "runway_months": null,
