@@ -4,7 +4,7 @@
   "read_contract": "source-evidence-v2",
   "license": "MIT",
   "coverage_note": "Public 9-row benchmark sample (3 PDUFA, 3 clinical catalysts, 3 cash-runway watch). Full 600+ biotech coverage, exact quarterly burn rates, debt schedules, and multi-agent research are available at https://biosniper.co.",
-  "generated_date_utc": "2026-11-08",
+  "generated_date_utc": "2026-11-09",
   "record_count": 9,
   "records": [
     {
@@ -62,22 +62,22 @@
       "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=78600000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=CGEM"
     },
     {
-      "ticker": "AMGN",
-      "company_name": "AMGEN INC",
+      "ticker": "AGMB",
+      "company_name": "AgomAb Therapeutics NV",
       "exchange": "Nasdaq",
-      "event_id": 6440329,
-      "catalyst_type": "Phase1_Start",
-      "expected_date": "2026-11-09",
+      "event_id": 6455519,
+      "catalyst_type": "Conference_Presentation",
+      "expected_date": "2026-11-10",
       "date_kind": "exact",
       "drug_name": "",
-      "indication": "Oncology, Neurology",
-      "event_title": "Phase1_Start: A Phase 1, Open-label, Randomized, Parallel Group, Multiple Dose Study to Assess the Relative Bioavailability of Maridebart Cafraglutide (AMG 133) as Two Subcutaneous Presentations in Participants Living With Overweight or Obesity",
-      "cash_and_equivalents_usd": 13989000000,
+      "indication": "Immunology, Metabolic",
+      "event_title": "Conference_Presentation: Agomab to Participate in Upcoming Investor Conferences",
+      "cash_and_equivalents_usd": null,
       "runway_months": null,
       "runway_band": "Verify Live SEC Runway & Burn on BioSniper",
-      "company_url": "https://biosniper.co/company/AMGN?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
-      "event_url": "https://biosniper.co/calendar/event/6440329?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=AMGN",
-      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=13989000000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=AMGN"
+      "company_url": "https://biosniper.co/company/AGMB?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
+      "event_url": "https://biosniper.co/calendar/event/6455519?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=AGMB",
+      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=AGMB"
     },
     {
       "ticker": "ABSI",
@@ -98,22 +98,22 @@
       "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=107900000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=ABSI"
     },
     {
-      "ticker": "REGN",
-      "company_name": "REGENERON PHARMACEUTICALS, INC.",
+      "ticker": "PRLD",
+      "company_name": "Prelude Therapeutics Inc",
       "exchange": "Nasdaq",
-      "event_id": 6426073,
-      "catalyst_type": "Phase3_Start",
-      "expected_date": "2026-11-18",
+      "event_id": 6458547,
+      "catalyst_type": "Phase1_Start",
+      "expected_date": "2026-11-16",
       "date_kind": "exact",
       "drug_name": "",
-      "indication": "Oncology, Metabolic",
-      "event_title": "Phase3_Start: A Phase 3, Double-Blind, Placebo-Controlled Study to Investigate the Efficacy and Safety of Olatorepatide, a GLP-1/GIP Receptor Agonist, in Participants Living With Overweight or Obesity Without Diabetes (RISE-1)",
-      "cash_and_equivalents_usd": 3659100000,
+      "indication": "Oncology, Hematology",
+      "event_title": "Phase1_Start: A Phase 1/1b, First-in-Human, Open-Label, Multicenter Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Antitumor Activity of PRT13722, a KAT6A Protein Degrader, as Monotherapy and in Combination With Endocrine and Targeted Therapy in Adults With Locally Advanced or Metastatic HR-Positive, HER2-Negative Breast Cancer",
+      "cash_and_equivalents_usd": 26300000,
       "runway_months": null,
       "runway_band": "Verify Live SEC Runway & Burn on BioSniper",
-      "company_url": "https://biosniper.co/company/REGN?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
-      "event_url": "https://biosniper.co/calendar/event/6426073?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=REGN",
-      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=3659100000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=REGN"
+      "company_url": "https://biosniper.co/company/PRLD?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
+      "event_url": "https://biosniper.co/calendar/event/6458547?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=PRLD",
+      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=26300000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=PRLD"
     },
     {
       "ticker": "BIVI",
