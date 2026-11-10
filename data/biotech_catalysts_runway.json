@@ -4,7 +4,7 @@
   "read_contract": "source-evidence-v2",
   "license": "MIT",
   "coverage_note": "Public 9-row benchmark sample (3 PDUFA, 3 clinical catalysts, 3 cash-runway watch). Full 600+ biotech coverage, exact quarterly burn rates, debt schedules, and multi-agent research are available at https://biosniper.co.",
-  "generated_date_utc": "2026-11-09",
+  "generated_date_utc": "2026-11-10",
   "record_count": 9,
   "records": [
     {
@@ -44,40 +44,22 @@
       "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=474800000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=PRAX"
     },
     {
-      "ticker": "CGEM",
-      "company_name": "Cullinan Therapeutics, Inc.",
+      "ticker": "PVLA",
+      "company_name": "PALVELLA THERAPEUTICS, INC.",
       "exchange": "Nasdaq",
-      "event_id": 6369398,
+      "event_id": 6403732,
       "catalyst_type": "PDUFA",
-      "expected_date": "2027-02-27",
+      "expected_date": "2027-02-28",
       "date_kind": "review_target",
-      "drug_name": "zipalertinib",
-      "indication": "Oncology, Hematology",
-      "event_title": "PDUFA: zipalertinib",
-      "cash_and_equivalents_usd": 78600000,
+      "drug_name": "QTORIN",
+      "indication": "Dermatology",
+      "event_title": "PDUFA: QTORIN",
+      "cash_and_equivalents_usd": 193300000,
       "runway_months": null,
       "runway_band": "Verify Live SEC Runway & Burn on BioSniper",
-      "company_url": "https://biosniper.co/company/CGEM?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
-      "event_url": "https://biosniper.co/calendar/event/6369398?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=CGEM",
-      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=78600000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=CGEM"
-    },
-    {
-      "ticker": "AGMB",
-      "company_name": "AgomAb Therapeutics NV",
-      "exchange": "Nasdaq",
-      "event_id": 6455519,
-      "catalyst_type": "Conference_Presentation",
-      "expected_date": "2026-11-10",
-      "date_kind": "exact",
-      "drug_name": "",
-      "indication": "Immunology, Metabolic",
-      "event_title": "Conference_Presentation: Agomab to Participate in Upcoming Investor Conferences",
-      "cash_and_equivalents_usd": null,
-      "runway_months": null,
-      "runway_band": "Verify Live SEC Runway & Burn on BioSniper",
-      "company_url": "https://biosniper.co/company/AGMB?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
-      "event_url": "https://biosniper.co/calendar/event/6455519?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=AGMB",
-      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=AGMB"
+      "company_url": "https://biosniper.co/company/PVLA?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
+      "event_url": "https://biosniper.co/calendar/event/6403732?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=PVLA",
+      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=193300000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=PVLA"
     },
     {
       "ticker": "ABSI",
@@ -116,6 +98,24 @@
       "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=26300000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=PRLD"
     },
     {
+      "ticker": "ONC",
+      "company_name": "BeOne Medicines Ltd.",
+      "exchange": "Nasdaq",
+      "event_id": 6460606,
+      "catalyst_type": "Phase1_Start",
+      "expected_date": "2026-11-23",
+      "date_kind": "exact",
+      "drug_name": "",
+      "indication": "Oncology",
+      "event_title": "Phase1_Start: A Multicenter, Open-Label, Phase 1a/b First-in-Human Study to Investigate the Safety, Tolerability, Pharmacokinetics, and Preliminary Antitumor Activity of BON-C1393 in Patients With Selected Advanced Solid Tumors",
+      "cash_and_equivalents_usd": 5781100000,
+      "runway_months": null,
+      "runway_band": "Verify Live SEC Runway & Burn on BioSniper",
+      "company_url": "https://biosniper.co/company/ONC?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
+      "event_url": "https://biosniper.co/calendar/event/6460606?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=ONC",
+      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=5781100000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=ONC"
+    },
+    {
       "ticker": "BIVI",
       "company_name": "BIOVIE INC.",
       "exchange": "Nasdaq",
@@ -134,6 +134,24 @@
       "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=7700000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=BIVI"
     },
     {
+      "ticker": "LITS",
+      "company_name": "Lite Strategy, Inc.",
+      "exchange": "Nasdaq",
+      "event_id": null,
+      "catalyst_type": "CASH_RUNWAY_WATCH",
+      "expected_date": "",
+      "date_kind": "",
+      "drug_name": "",
+      "indication": "Oncology",
+      "event_title": "SEC Cash Runway < 12m Watch",
+      "cash_and_equivalents_usd": 4300000,
+      "runway_months": 6.0,
+      "runway_band": "< 12m (Dilution Watch — Full 10-Q Model on BioSniper)",
+      "company_url": "https://biosniper.co/company/LITS?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
+      "event_url": "",
+      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=4300000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=LITS"
+    },
+    {
       "ticker": "SLXN",
       "company_name": "Silexion Therapeutics Corp",
       "exchange": "Nasdaq",
@@ -150,24 +168,6 @@
       "company_url": "https://biosniper.co/company/SLXN?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
       "event_url": "",
       "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=2200000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=SLXN"
-    },
-    {
-      "ticker": "VIVS",
-      "company_name": "VivoSim Labs, INC.",
-      "exchange": "Nasdaq",
-      "event_id": null,
-      "catalyst_type": "CASH_RUNWAY_WATCH",
-      "expected_date": "",
-      "date_kind": "",
-      "drug_name": "",
-      "indication": "Immunology, Infectious Disease",
-      "event_title": "SEC Cash Runway < 12m Watch",
-      "cash_and_equivalents_usd": 1700000,
-      "runway_months": 2.0,
-      "runway_band": "< 12m (Dilution Watch — Full 10-Q Model on BioSniper)",
-      "company_url": "https://biosniper.co/company/VIVS?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
-      "event_url": "",
-      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=1700000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=VIVS"
     }
   ]
 }
