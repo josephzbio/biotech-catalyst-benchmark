@@ -4,7 +4,7 @@
   "read_contract": "source-evidence-v2",
   "license": "MIT",
   "coverage_note": "Public 9-row benchmark sample (3 PDUFA, 3 clinical catalysts, 3 cash-runway watch). Full 600+ biotech coverage, exact quarterly burn rates, debt schedules, and multi-agent research are available at https://biosniper.co.",
-  "generated_date_utc": "2026-11-10",
+  "generated_date_utc": "2026-11-11",
   "record_count": 9,
   "records": [
     {
@@ -44,22 +44,22 @@
       "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=474800000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=PRAX"
     },
     {
-      "ticker": "PVLA",
-      "company_name": "PALVELLA THERAPEUTICS, INC.",
+      "ticker": "CGEM",
+      "company_name": "Cullinan Therapeutics, Inc.",
       "exchange": "Nasdaq",
-      "event_id": 6403732,
+      "event_id": 6369398,
       "catalyst_type": "PDUFA",
-      "expected_date": "2027-02-28",
+      "expected_date": "2027-02-27",
       "date_kind": "review_target",
-      "drug_name": "QTORIN",
-      "indication": "Dermatology",
-      "event_title": "PDUFA: QTORIN",
-      "cash_and_equivalents_usd": 193300000,
+      "drug_name": "zipalertinib",
+      "indication": "Oncology, Hematology",
+      "event_title": "PDUFA: zipalertinib",
+      "cash_and_equivalents_usd": 78600000,
       "runway_months": null,
       "runway_band": "Verify Live SEC Runway & Burn on BioSniper",
-      "company_url": "https://biosniper.co/company/PVLA?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
-      "event_url": "https://biosniper.co/calendar/event/6403732?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=PVLA",
-      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=193300000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=PVLA"
+      "company_url": "https://biosniper.co/company/CGEM?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
+      "event_url": "https://biosniper.co/calendar/event/6369398?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=CGEM",
+      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=78600000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=CGEM"
     },
     {
       "ticker": "ABSI",
@@ -98,22 +98,22 @@
       "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=26300000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=PRLD"
     },
     {
-      "ticker": "ONC",
-      "company_name": "BeOne Medicines Ltd.",
-      "exchange": "Nasdaq",
-      "event_id": 6460606,
-      "catalyst_type": "Phase1_Start",
-      "expected_date": "2026-11-23",
+      "ticker": "ABBV",
+      "company_name": "AbbVie Inc.",
+      "exchange": "NYSE",
+      "event_id": 6463996,
+      "catalyst_type": "Phase2_Start",
+      "expected_date": "2026-11-20",
       "date_kind": "exact",
       "drug_name": "",
-      "indication": "Oncology",
-      "event_title": "Phase1_Start: A Multicenter, Open-Label, Phase 1a/b First-in-Human Study to Investigate the Safety, Tolerability, Pharmacokinetics, and Preliminary Antitumor Activity of BON-C1393 in Patients With Selected Advanced Solid Tumors",
-      "cash_and_equivalents_usd": 5781100000,
+      "indication": "Oncology, Neurology",
+      "event_title": "Phase2_Start: A Phase 2, Open-label, Randomized Study to Evaluate the Safety and Efficacy of ABBV-706 in Combination With Alveltamig and Atezolizumab in First-Line in Subjects With Extensive Stage-Small Cell Lung Cancer (ES-SCLC)",
+      "cash_and_equivalents_usd": 10774000000,
       "runway_months": null,
       "runway_band": "Verify Live SEC Runway & Burn on BioSniper",
-      "company_url": "https://biosniper.co/company/ONC?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
-      "event_url": "https://biosniper.co/calendar/event/6460606?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=ONC",
-      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=5781100000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=ONC"
+      "company_url": "https://biosniper.co/company/ABBV?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
+      "event_url": "https://biosniper.co/calendar/event/6463996?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=ABBV",
+      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=10774000000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=ABBV"
     },
     {
       "ticker": "BIVI",
