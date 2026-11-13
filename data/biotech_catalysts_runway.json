@@ -4,7 +4,7 @@
   "read_contract": "source-evidence-v2",
   "license": "MIT",
   "coverage_note": "Public 9-row benchmark sample (3 PDUFA, 3 clinical catalysts, 3 cash-runway watch). Full 600+ biotech coverage, exact quarterly burn rates, debt schedules, and multi-agent research are available at https://biosniper.co.",
-  "generated_date_utc": "2026-11-12",
+  "generated_date_utc": "2026-11-13",
   "record_count": 9,
   "records": [
     {
@@ -80,22 +80,22 @@
       "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=26300000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=PRLD"
     },
     {
-      "ticker": "ABBV",
-      "company_name": "AbbVie Inc.",
-      "exchange": "NYSE",
-      "event_id": 6463996,
-      "catalyst_type": "Phase2_Start",
-      "expected_date": "2026-11-20",
+      "ticker": "REGN",
+      "company_name": "REGENERON PHARMACEUTICALS, INC.",
+      "exchange": "Nasdaq",
+      "event_id": 6470059,
+      "catalyst_type": "Phase3_Start",
+      "expected_date": "2026-11-18",
       "date_kind": "exact",
       "drug_name": "",
       "indication": "Oncology, Neurology",
-      "event_title": "Phase2_Start: A Phase 2, Open-label, Randomized Study to Evaluate the Safety and Efficacy of ABBV-706 in Combination With Alveltamig and Atezolizumab in First-Line in Subjects With Extensive Stage-Small Cell Lung Cancer (ES-SCLC)",
-      "cash_and_equivalents_usd": 10774000000,
+      "event_title": "Phase3_Start: A Phase 3, Double-Blind, Placebo-Controlled Study to Investigate the Efficacy and Safety of Olatorepatide, a GLP-1/GIP Receptor Agonist, in Participants Living With Overweight or Obesity Without Diabetes (RISE-1)",
+      "cash_and_equivalents_usd": 3659100000,
       "runway_months": null,
       "runway_band": "Verify Live SEC Runway & Burn on BioSniper",
-      "company_url": "https://biosniper.co/company/ABBV?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
-      "event_url": "https://biosniper.co/calendar/event/6463996?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=ABBV",
-      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=10774000000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=ABBV"
+      "company_url": "https://biosniper.co/company/REGN?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
+      "event_url": "https://biosniper.co/calendar/event/6470059?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=REGN",
+      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=3659100000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=REGN"
     },
     {
       "ticker": "ONC",
@@ -152,22 +152,22 @@
       "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=4300000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=LITS"
     },
     {
-      "ticker": "SLXN",
-      "company_name": "Silexion Therapeutics Corp",
+      "ticker": "VTGN",
+      "company_name": "Vistagen Therapeutics, Inc.",
       "exchange": "Nasdaq",
       "event_id": null,
       "catalyst_type": "CASH_RUNWAY_WATCH",
       "expected_date": "",
       "date_kind": "",
       "drug_name": "",
-      "indication": "Oncology",
+      "indication": "Oncology, Neurology",
       "event_title": "SEC Cash Runway < 12m Watch",
-      "cash_and_equivalents_usd": 2200000,
-      "runway_months": 2.0,
+      "cash_and_equivalents_usd": 17000000,
+      "runway_months": 6.0,
       "runway_band": "< 12m (Dilution Watch — Full 10-Q Model on BioSniper)",
-      "company_url": "https://biosniper.co/company/SLXN?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
+      "company_url": "https://biosniper.co/company/VTGN?utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=company_row",
       "event_url": "",
-      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=2200000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=SLXN"
+      "runway_calculator_url": "https://biosniper.co/tools/cash-runway?cash=17000000&utm_source=github&utm_medium=open_source&utm_campaign=catalyst_dataset&utm_content=VTGN"
     }
   ]
 }
